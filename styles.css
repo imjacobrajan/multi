@@ -1313,15 +1313,15 @@ ul {
   .right-arrow,
   .left-arrow {
     display: block;
-    font-size: 30px;
+    font-size: 15px;
     line-height: 0;
     width: auto;
     height: auto;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 50px;
     color: rgba(255, 255, 255, 0.5);
-    width: 54px;
-    height: 54px;
+    width: 30px;
+    height: 30px;
     font-weight: lighter;
     position: relative;
   }
@@ -1361,6 +1361,7 @@ ul {
   } */
   #about {
     width: 80%;
+    padding-bottom: 30px;
     /* padding: 60px 50px 0 10px; */
   }
   #about__description {
@@ -1384,6 +1385,8 @@ ul {
   }
   .count__element {
     width: 100%;
+    margin: 0;
+
     margin-bottom: 20px;
     display: block;
   }
@@ -1409,7 +1412,6 @@ ul {
   }
   #services__container > div {
     width: 100%;
-    margin: 10px;
     display: block;
   }
   #services__container {
@@ -1418,6 +1420,10 @@ ul {
 
   #testimonial__container {
     width: 100%;
+  }
+  .services__container--center {
+    margin: 0;
+    margin-top: 10px;
   }
 
   #testimonial__container > div {
@@ -1453,7 +1459,6 @@ ul {
     display: block;
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
   }
 
   .team__name {
@@ -1508,6 +1513,8 @@ ul {
 
   #contact__left--top {
     width: 100%;
+    padding: 10px;
+    height: auto;
   }
 
   #contact__email {
@@ -1522,8 +1529,9 @@ ul {
 
   #contact__right {
     width: 100%;
-    margin-left: 30px;
     margin-top: 60px;
+    height: 450px;
+    padding-bottom: 20px;
   }
 
   #contact__right #name {
@@ -1541,6 +1549,7 @@ ul {
   }
 
   #footer__details--col1 {
+    height: auto;
     width: 100%;
     margin-bottom: 20px;
   }

@@ -10,6 +10,7 @@ body {
   width: 100%;
   font-family: "Open Sans", sans-serif;
   background-color: #f4f4f4;
+  overflow-x: hidden;
 }
 
 a {
@@ -235,7 +236,6 @@ ul {
 #about__left {
   width: 45%;
   display: inline-block;
-  margin-left: 30px;
   vertical-align: top;
 }
 
@@ -1193,7 +1193,7 @@ ul {
 
 #footer__details--col4 {
   vertical-align: top;
-  width: 400px;
+  width: 30%;
   margin: 0 20px;
 }
 
@@ -1273,6 +1273,7 @@ ul {
 
 @media (max-width: 768px) {
   body {
+    width: 100%;
     overflow-x: hidden;
   }
   .container {
@@ -1362,10 +1363,14 @@ ul {
     width: 80%;
     /* padding: 60px 50px 0 10px; */
   }
+  #about__description {
+    width: 100%;
+  }
 
   #about__left {
     width: 100%;
     display: block;
+    margin-left: 0;
     margin-bottom: 30px;
   }
   #about__right {
@@ -1394,7 +1399,7 @@ ul {
   #whyus__right li p {
     padding: 10px 0;
     font-size: 15px;
-    width: 300px;
+    width: 90%;
   }
 
   #services {
@@ -1417,7 +1422,7 @@ ul {
 
   #testimonial__container > div {
     width: 100%;
-    height: 250px;
+    height: auto;
     display: block;
     /* margin: 20px; */
     margin-left: 20px;
@@ -1452,7 +1457,7 @@ ul {
   }
 
   .team__name {
-    left: 80px;
+    left: 20%;
   }
 
   #pricing {
@@ -1461,8 +1466,8 @@ ul {
 
   #pricing__container > div {
     display: block;
+    height: auto;
     width: 100%;
-    width: 400px;
   }
 
   #pricing__active {
@@ -1470,7 +1475,7 @@ ul {
   }
 
   #faq__title h2 {
-    width: 500px;
+    width: 100%;
   }
 
   #faq {
@@ -1499,7 +1504,6 @@ ul {
 
   #contact__left {
     width: 100%;
-    margin-left: 30px;
   }
 
   #contact__left--top {
@@ -1546,6 +1550,17 @@ ul {
   }
   #footer__details--col3 {
     margin-bottom: 20px;
+  }
+
+  #footer__details--col4 {
+    width: 100%;
+  }
+
+  #footer__email {
+    width: 100%;
+  }
+  #whyus__left {
+    width: 100%;
   }
 
   #copyright {

@@ -22,19 +22,27 @@
           <ul class="navbar__links">
             <li><a href="" class="navbar__link--active">Home</a></li>
             <li><a href="">About</a></li>
-            <li><a href="">Services</a></li>
+            <li class="drop-down__services"><a href="">Services</a>
+              <ul class="drop-down">
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Branding</a></li>
+              </ul>
+            </li>
             <li><a href="">Portfolio</a></li>
-            <li><a href="">Team</a></li>
-            <li><a href="">Drop Down</a></li>
+            <li><a href="">Team</a></li>        
             <li><a href="">Contact</a></li>
             <li><a href="" class="navbar__button">Get Started</a></li>
           </ul>
         </nav>
+        <div class="bars"><i class="fa-solid fa-bars"></i></div>
       </div>
     </header>
 
     <section id="carousel">
       <img src="images/carousel.jpg" alt="" />
+     <a href=""> <span class="left-arrow"><i class="fa-solid fa-chevron-left"></i></span></a>
       <div id="carousel__text">
         <h2>Welcome to JMSpace</h2>
         <p>
@@ -44,6 +52,7 @@
         </p>
         <a href="">Read More</a>
       </div>
+     <a href="" > <span class="right-arrow"><i class="fa-solid fa-chevron-right"></i></span></a>
       <ul class="indicator">
         <li id="indicator__active"></li>
         <li></li>
@@ -210,6 +219,7 @@
       <div class="services__container--center"><div class="icon__box"><i class="fa-solid fa-archway"></i></div><h4>Divera don</h4><p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p></div>
     </div>
   </div>
+  </section>
 <!-- Services end -->
 
 <!-- Testimonials -->
@@ -467,7 +477,7 @@
 
     <!-- Footer Start -->
     <footer id="footer">
-      <div class="container">
+      <div class="">
         <div class="footer__details">
           <div id="footer__details--col1">
             <div class="footer-info">
@@ -559,11 +569,12 @@
           </div>
         </div>
         <div>
-          <div class="container">
+          <div class="bottom">
             <div id="copyright">
               &#169; Copyright <strong>JMSpace</strong>. All Rights Reserved
             </div>
-            <div id="credit">Designed by <a href="">Jacob Samuel</a> <div id="arrow"><i class="fa-solid fa-arrow-up"></i></div></div>
+            <div id="credit">Designed by <a href="">Jacob Samuel</a> </div>
+            <div id="arrow"><i class="fa-solid fa-arrow-up"></i></div>
             
           </div>
         </div>
